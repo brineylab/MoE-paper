@@ -1,4 +1,4 @@
-# MoE Paper
+# Mixture-of-Experts Antibody Language Models
 
 Code for *Evaluating Expert Specialization in Mixture-of-Experts Antibody Language Models*, published in the [ICLR 2026 FM4Science Workshop](https://openreview.net/forum?id=laLWlka9kN).
 
