@@ -15,6 +15,8 @@ pip install git+https://github.com/smburbach/AbLM-Eval.git
 
 ## Code
 
+Model architecture code is available in the [BALM repo](https://github.com/brineylab/BALM).
+
 **`model-training/`**
 - `01_pilot/` — initial router comparison experiments (45M active params, unpaired only)
 - `02_pad-ablations/` — router masking ablations (45M active params, unpaired only)
