@@ -4,7 +4,7 @@ Code for *Evaluating Expert Specialization in Mixture-of-Experts Antibody Langua
 
 We explore the use of sparse mixture-of-experts (MoE) architectures for antibody language models (AbLMs). Through a systematic comparison of established MoE routing strategies (Top-K, Top-P, and Expert Choice) we observe that token-choice routing consistently outperforms expert-choice routing. Building on this finding, we refine token-choice routing by omitting padding tokens from routing decisions, enabling more effective variable-length pre-training. Our large-scale Top-2 MoE model, BALM-MoE, is trained on both paired and unpaired antibody sequences and surpasses a parameter-matched dense model in performance.
 
-BALM-MoE model weights are available on [Hugging Face](https://huggingface.co/collections/brineylab/moe-paper).
+BALM-MoE model weights are available on [Hugging Face](https://huggingface.co/collections/brineylab/moe-paper). Datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.19411192).
 
 ## Dependencies
 
